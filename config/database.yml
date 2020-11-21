@@ -20,4 +20,4 @@ production:
   <<: *postgresql
   database: bs5_demo_production
   username: bs5_demo
-  password: <%= ENV['RAILS_PROGRESSIVE_ENHANCEMENT_NAVIGATION_DATABASE_PASSWORD'] %>
+  password: <%= ENV['BS5_DEMO_DATABASE_PASSWORD'] %>
